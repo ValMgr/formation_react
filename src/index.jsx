@@ -1,9 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import './reset.css';
-import './index.css';
+import App from "./classes/App";
 
-const pokemon = <div>Pikachu</div>;
+import "./reset.css";
+import "./index.css";
 
-ReactDOM.render(pokemon, document.getElementById('root'));
+
+// console.log(data);
+const app = <App></App>;
+
+ReactDOM.render(app, document.getElementById("root"));
