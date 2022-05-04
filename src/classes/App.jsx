@@ -3,7 +3,7 @@ import React from "react";
 import Trainer from "./Trainer";
 import PokemonList from "./PokemonList";
 import Filter from "./Filter";
-import fetchPokemons from "../utils/fetchPokemon";
+import {fetchAll as fetchPokemons} from "../utils/pokemons.js";
 import PokemonTrained from "./PokemonTrained";
 
 export default class App extends React.Component {
