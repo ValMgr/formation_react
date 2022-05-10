@@ -32,7 +32,7 @@ export default class PokemonTrained extends Pokemon {
     return (
       <li
         className="Pokemon TrainedPokemon"
-        onClick={this.displayName}
+        onClick={this.displayName} onMouseMove={this.addExperience}
       >
         <div className="liberate" onClick={() => releasePokemon(id)}>x</div>
         <div className="name">{name}</div>
